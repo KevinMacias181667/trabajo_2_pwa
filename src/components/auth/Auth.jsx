@@ -21,14 +21,14 @@ export default function Auth() {
     return (
         <div className="row flex flex-center">
             <div className="col-6 form-widget">
-                <h1 className="header">Supabase + React</h1>
-                <p className="description">Sign in via magic link with your email below
+                <h1 className="header">ACCEDER</h1>
+                <p className="description">
                  accede a la aplicación colocando tu correo y enseguida ve a tu correo para acceder</p>
                 <div>
                     <input
                         className="inputField"
                         type="email"
-                        placeholder="Your email"
+                        placeholder="tu correo"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                     />
